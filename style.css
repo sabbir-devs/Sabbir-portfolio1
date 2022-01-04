@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.md-sabbir{
+    color: orange;
+}
+.all-head{
+    background: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all-half{
+    display: flex;
+    margin-bottom: 6rem;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width h1{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+.half-width h3{
+    margin: 3rem 0 1rem 0;
+}
+.half-width p{
+    width: 80%;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+.fb-linked-button{
+    color: white;
+    background: linear-gradient(#F98E6C, #FFC91C);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.mid-section{
+    background: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp{
+    font-size: 3rem;
+    margin-left: 5%;
+    letter-spacing: 0.3rem;
+}
+.end-section{
+    width: 40rem;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 2rem 0 2rem 2rem;
+    -webkit-box-shadow:0 0 14px 4px rgba(0, 0, 0, 0.788);
+    box-shadow:0 0 14px 4px rgba(0, 0, 0, 0.788);
+}
+.end-section h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+.end-section h3{
+    color: orange;
+    padding: 1.5rem 0;
+}
+.end-section p{
+    width: 100%;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.border-1{
+    border-left: 0.7rem solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1
+}
+.border-2{
+    border-left: 0.7rem solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.end-section-wrapper{
+    background: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10rem;
+}
+#footer p{
+    text-align: center;
+    padding: 2rem 0;
+}
